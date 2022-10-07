@@ -52,7 +52,7 @@ public class Trader<T> {
      *       object of type T and adds it to this Trader's wishlist.
      */
     public void addToWishlist(T obj){
-        this.inventory.set(0, obj);
+        this.wishlist.add(obj);
     }
 
 
